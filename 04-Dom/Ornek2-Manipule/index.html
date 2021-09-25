@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dom Ornek</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main>
+      <!--ana icerik-->
+      <div class="container text-center">
+        <h1>Ornekler</h1>
+        <img class="resim" src="img/img2.jpg" alt="" />
+
+        <div class="mt-4">
+          <!--margin top 4 br-->
+          <audio
+            class="ses"
+            src="img/retro-ringtone .mp3"
+            style="width: 0"
+            controls=""
+          ></audio>
+          <button class="btn on btn-outline-warning">Ara</button>
+          <!--bootstrap eklentisi-->
+          <button class="btn off btn-outline-primary">Baglat</button
+          ><!--bootstrap eklentisi-->
+          <button class="btn speak btn-outline-danger">Konus</button
+          ><!--bootstrap eklentisi-->
+        </div>
+
+        <div class="input-div mt-5">
+          <label for="textbox">Bir şeyler yaziniz</label>
+          <input class="textbox" type="text" value="" />
+          <label for="checkbox">Kucuk/Buyuk</label>
+          <input class="checkbox" type="checkbox" />
+        </div>
+
+        <ul class="liste text-start">
+          <li>JavaScript</li>
+          <li>Java</li>
+          <li>Pyhton</li>
+          <li>SQL</li>
+          <li>C#</li>
+        </ul>
+
+        <div class="text-start d-flex align-items-center">
+          <input class="dil me-1" type="text" value="" />
+          <button class="btn ekle btn-success">Ekle</button>
+          <button class="btn sil btn-danger m-lg-1">Sil</button>
+        </div>
+      </div>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
