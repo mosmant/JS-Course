@@ -39,6 +39,9 @@ parag.innerHTML = parag.innerHTML + `<h1>${"Programlama Dilleri"}</h1>`;
 // burada forh1 classina birseyler yazacagiz. innerHTML ile oa ekleme yazdik.
 // istersek parag.innerHTML = `<h1>${'Programlama Dilleri'}</h1>`;
 
+// todo ===== SETATTRIBUTE methodu =====
+document.querySelector(".checkbox").setAttribute("type", "checkbox");
+
 // Klavyeden bir tusa basldiginda buyusun kuculsun.
 // onkeyup :klavyeden bir tusa basildiginda
 
