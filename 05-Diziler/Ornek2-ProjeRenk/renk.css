@@ -1,0 +1,20 @@
+.konteynir {
+  width: 100vw; /*  viaport width */
+  height: 100vh; /*  viaport height */
+  /* wiewport verince tarayıcı alanını (hepsine uygun crome, explorer vs) yüzde yüz alıp güzelce ortalar. 
+    100%versekte olur, o sıfıra sıfır ekranı kaplar, bütün border a görebiliriz */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn {
+  padding: 20px;
+  background-color: bisque;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  background-color: rgb(224, 187, 140);
+}
